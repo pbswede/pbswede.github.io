@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- this is my comments -->
+
+<html>
+	<head>
+		<title>Twitter Mon</title>
+		<style type="text/css">
+			body {
+				background-color: lightgray;
+				font-size: 1em;
+				font-family: arial;
+				margin: 0px;
+			}
+			header {
+				background-color: white;
+				border-bottom: 1px solid darkgray;
+				z-index: 1;
+			}
+			header ul {
+				margin: 0px;
+				list-style: none;
+				padding: 10px;
+			}
+			header li {
+				display: inline;
+				margin: 1em 2em 1em 2em;
+			}
+			header a {
+				color: gray;
+				text-decoration: none;
+				font-size: 1.2em;
+			}
+			main {
+				overflow: hidden;
+			}
+			.background {
+				width: 100%;
+				position: absolute;
+				top: -450px;
+				z-index: -1;
+
+			}
+
+			main > aside img {
+				width: 100px;
+				background-color: white;
+				border-radius: 50%;
+				padding: 20px;
+
+			}
+			main > aside {
+				margin-top: 200px;
+			}
+			.avatar {
+				width: 30px;
+			}
+			.poketeets {
+				background-color: white;
+				margin: 300px 100px 0px 
+				border-radius:  10px;
+			}
+			.poketeets ul {
+				margin: 0;
+				padding: 0;
+				list-style: inline;
+
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href='/home' title="Home">Home</a>
+					</li>
+					<li>
+						<a href='/moments' title="Moments">Moments</a>
+					</li>
+					<li>
+						<a href='/notifications' title="Notifications">Notification</a>
+					</li>
+
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<img src="http://images4.fanpop.com/image/photos/24100000/Pokemon-pokemon-24187190-1920-1200.jpg" class='background'>
+
+			<aside>
+				<img src="http://images4.fanpop.com/image/photos/24000000/Squirtle-water-pokemon-club-24024511-489-619.png">
+				<h2>Squirtle</h2>
+				<h3>@squirtlife</h3>
+			</aside>
+
+			<section class="poketeets"> 
+				<ul>
+					<li>
+						<img src="http://images4.fanpop.com/image/photos/24000000/Squirtle-water-pokemon-club-24024511-489-619.png" class="avatar">
+						<h2>Squirtle</h2>
+						<h3>@squirtlife</h3>
+						<p>I really hate all these tweets</p>	
+					</li>
+					<li>
+						<img src="http://images4.fanpop.com/image/photos/24000000/Squirtle-water-pokemon-club-24024511-489-619.png" class="avatar">
+						<h2>Squirtle</h2>
+						<h3>@squirtlife</h3>
+						<p>I really hate all these tweets</p>	
+					</li>
+					<li>
+						<img src="http://images4.fanpop.com/image/photos/24000000/Squirtle-water-pokemon-club-24024511-489-619.png" class="avatar">
+						<h2>Squirtle</h2>
+						<h3>@squirtlife</h3>
+						<p>I really hate all these tweets</p>	
+					</li>
+				</ul>
+
+			</section>
+		</main>
+
+	</body>
+</html>
